@@ -44,6 +44,8 @@ const SearchMaker = ({ maker, setMaker }: SearchMakerProps) => {
             leaveTo="opacity-0"
             afterLeave={() => setQuery("")}
           >
+            {/* CARS OPTIONS */}
+
             <Combobox.Options>
               {filterdMakers.map((item) => (
                 <Combobox.Option

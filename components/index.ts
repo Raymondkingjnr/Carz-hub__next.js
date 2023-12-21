@@ -6,6 +6,8 @@ import SearchBar from "./SearchBar";
 import CustomFilter from "./CustomFilter";
 import SearchMaker from "./SearchMaker";
 import CarCard from "./CarCard";
+import CardDetails from "./CardDetails";
+import ShowMore from "./ShowMore";
 
 export {
   Hero,
@@ -16,4 +18,6 @@ export {
   CustomFilter,
   SearchMaker,
   CarCard,
+  CardDetails,
+  ShowMore,
 };
