@@ -15,6 +15,7 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
     />
   </button>
 );
+
 const SearchBar = () => {
   const router = useRouter();
   const [maker, setMaker] = useState("");
